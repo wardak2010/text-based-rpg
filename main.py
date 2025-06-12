@@ -84,7 +84,7 @@ if ans1 == "t":
         print("Thanks for playing! ")
         
 elif ans1 == "a":
-    print("You go to your sibling’s room knowing that they have never been drawn for the games, so they may not be too helpful. Regardless, you ask them for advice, and just as you expected they tell you they don’t know anything about the games. You go to the reaping ceremony two days later in a panic, but the mayor calls out two names, and they aren’t yours. You didn’t get picked. Let’s hope you get the same luck next year…\n")
+    print(f"You go to your sibling’s room knowing that they have never been drawn for the games, so they may not be too helpful. Regardless, you ask them for advice, and just as you expected they tell you they don’t know anything about the games. You go to the reaping ceremony two days later in a panic, but the mayor calls out two names, and they aren’t yours. You didn’t get picked. You didn't compete in the Hunger Games after all {name}. Let’s hope you get the same luck next year…\n")
     print("Thanks for playing! ")
         
 else:
