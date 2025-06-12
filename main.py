@@ -1,6 +1,6 @@
 # Text-Based RPG: The Hunger Games Survival
 # Welcome user to the game and ask their name
-name = input("Welcome to The Hunger Games Survival! What is your name? ")
+name = input("Welcome to The Hunger Games Survival! This a game based on the Hunger Games where you will have different options to survive. Do you have survivial instincts? What is your name? ")
 print(f"Hi {name}! We hope you will enjoy the game. Here we go...\n" )
 
 # Start game
@@ -44,7 +44,7 @@ if ans1 == "t":
                 ans5 = input("Choice: ").lower().strip()
                 
                 if ans5 == "r":
-                    print("You sprint into the woods and spot a backpack on the floor. Regardless of knowing what’s inside, you pick it up and keep running until you find a tall tree. Using the tree climbing skills you practiced earlier, you quickly climb to the top to protect yourself from other tributes. You open the backpack and see it is stocked with food. You let out a sigh of relief. You stay safe on the tree for three days straight until you run out of food. There are only three tributes left. You climb down and spot some berries.You are starving.\n")
+                    print("You sprint into the woods and spot a backpack on the floor. Regardless of knowing what’s inside, you pick it up and keep running until you find a tall tree. Using the tree climbing skills you practiced earlier, you quickly climb to the top to protect yourself from other tributes. You open the backpack and see it is stocked with food. You let out a sigh of relief. You stay safe on the tree for three days straight until you run out of food. There are only three tributes left. You climb down and spot some berries. You are starving.\n")
                     print("[E]at a few.")
                     print("[D]on’t eat them.")
                     ans6 = input("Choice: ").lower().strip()
